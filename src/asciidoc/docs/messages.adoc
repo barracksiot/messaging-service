@@ -1,0 +1,30 @@
+== Messages
+
+=== Send message
+
+A `POST` request with unitId as parameters sends a message to specific devices.
+
+==== Request
+
+===== Parameters
+
+include::{snippets}/messages/send/request-parameters.adoc[]
+
+===== Request
+
+include::{snippets}/messages/send/http-request.adoc[]
+
+include::{snippets}/messages/send/curl-request.adoc[]
+
+
+=== Send message to all devices
+
+A `POST` request sends a message to all the devices of the user.
+
+==== Request
+
+===== Request
+
+include::{snippets}/messages/send-to-all/http-request.adoc[]
+
+include::{snippets}/messages/send-to-all/curl-request.adoc[]
