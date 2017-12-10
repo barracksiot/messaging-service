@@ -22,4 +22,4 @@
  * SOFTWARE.
  */
 
-rootProject.name = 'barracks-messagingservice'
+rootProject.name = 'barracks-messaging-service'
